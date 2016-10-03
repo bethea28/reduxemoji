@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory, Link, IndexRoute} from 'react-router';
-
+import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 import BrandStory from './components/BrandStory';
 import Footer from './components/Footer';
 import ItemPage from './components/ItemPage';
@@ -11,7 +11,6 @@ import HomePage from './components/HomePage';
 import LookBookPage from './components/LookBookPage';
 import SalePage from './components/SalePage';
 import ShopPage from './components/ShopPage';
-import ToolBar from './components/ToolBar';
 import NavBar from './components/NavBar';
 
 var App = React.createClass({
@@ -19,6 +18,7 @@ var App = React.createClass({
     return (
       <div className="container-fluid">
         <Header />
+        <NavBar />
         {this.props.children}
         <Footer />
       </div>

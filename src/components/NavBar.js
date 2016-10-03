@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 var NavBar = React.createClass({
   render: function() {
     return (
       <div className>
-        <h1>Hello World!</h1>
+        <h1>Navbar</h1>
       </div>
     )
   }
