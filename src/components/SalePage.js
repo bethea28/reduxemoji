@@ -1,11 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 var SalePage = React.createClass({
   render: function() {
     return (
       <div className>
-        <h1>Hello World!</h1>
+        <h1>SalePage</h1>
       </div>
     )
   }
