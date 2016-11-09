@@ -72,7 +72,7 @@ Classic model.
 The creation of Woody Moth emerged from my personal quest to possess both<br/>
 
 
-contemporary and unique men's accessories; with each Woody Moth creation I hope<br/>
+contemporary and unique men's accessories; with each Woody Moth creation I hope <br/>
 
 
 to pass on the pride and the self-confidence I feel when wearing something both trendy<br/>
